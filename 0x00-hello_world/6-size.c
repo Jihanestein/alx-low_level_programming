@@ -4,16 +4,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-    int integerType;
-    float floatType;
-    double doubleType;
-    char charType;
-     printf("Size of a char: %ld bytes\n",sizeof(charType));
-     printf("Size of a int: %4d bytes\n",sizeof(integerType));
-     printf("Size of a long: %4d byte\n",sizeof(longType));
-     printf("Size of a long long int: %8d byte\n",sizeof(longlongType));
-     printf("Size of a float: %4d byte\n",sizeof(floatType));
+int integerType;
+float floatType;
+double doubleType;
+char charType;
+printf("Size of a char: %1ld bytes\n", sizeof(char));
+printf("Size of a int: %4ld bytes\n", sizeof(int));
+printf("Size of a long: %4ld byte\n", sizeof(long int));
+printf("Size of a long long int: %8ld byte\n", sizeof(long long int));
+printf("Size of a float: %4ld byte\n", sizeof(float));
 return (0);
 }
