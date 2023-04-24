@@ -13,8 +13,8 @@ int main(void)
 	{
 		if (a == 101 || a == 113)
 		{
-			continue;
 			a++;
+			continue;
 		}
 		putchar(a);
 		a++;
