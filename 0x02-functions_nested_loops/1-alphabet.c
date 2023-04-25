@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - parametre that print alphabet
  * Description: function that prints the alphabet
- * @print_alphabet: parametre that print alphabet
  * Return: void.
  */
 void print_alphabet(void)
