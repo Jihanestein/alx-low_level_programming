@@ -18,18 +18,23 @@ int main(void)
 		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz");
+			putchar(' ');
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
 			printf("Buzz");
+			putchar(' ');
 		}
 		else if (i % 5 == 0 && i % 3 == 0)
 		{
 			printf("FizzBuzz");
+			putchar(' ');
 		}
 		else
 		{
-			printf("i");
+			printf("%d",i);
+			putchar(' ');
 		}
+		putchar('\n');
 	}
 }
