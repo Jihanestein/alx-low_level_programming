@@ -1,11 +1,12 @@
 #include "main.h"
+
 #include <stdio.h>
 
 /**
  * print_triangle - fct that draw a triangle
  * @size: size of triangle
  *
- * Return: triangle
+ * Return: 0
  */
 
 void print_triangle(int size)
