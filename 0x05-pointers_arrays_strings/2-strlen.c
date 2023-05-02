@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * int _strlen - fucntion that return a lenght of a string
+ *_strlen - fucntion that return a lenght of a string
  * @s: string
- * @len: lenght
+ *
  * Return: lenght of a srting
  */
 
