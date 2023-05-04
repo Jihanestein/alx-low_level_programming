@@ -3,19 +3,19 @@
 
 /**
  * *string_toupper - changes all lowercase letters to uppercases
- * @p: pointer
+ * @n: pointer
  * Return: uppercase letters
  */
 
-char *string_toupper(char *p)
+char *string_toupper(char *n)
 {
 	int j;
 
 	j = 0;
-	while (p[j] != '\0')
+	while (n[j] != '\0')
 	{
-		if (p[j] >= 'a' && p[j] <= 'z')
-			p[j] = p[j] - 32;
+		if (n[j] >= 'a' && n[j] <= 'z')
+			n[j] = n[j] - 32;
 		j++;
 	}
 }
