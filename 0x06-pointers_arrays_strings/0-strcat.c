@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - fctn that concatenates two strings
+ * *_strcat - fctn that concatenates two strings
  *
  * @char: character
  * @src: from
