@@ -1,0 +1,4 @@
+n
+w_recursion.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+   23 | }
+         | ^
