@@ -11,13 +11,9 @@
 int n_is_prime_number(int n, int a)
 {
 	if (a == 1)
-	{
 		return (1);
-	}
 	if (n % a == 0 && a > 0)
-	{
 		return (0);
-	}
 	return (n_is_prime_number(n, a - 1));
 }
 /**
