@@ -8,6 +8,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int second_sqrt_recursion(int n, int i);
-int is_prime_number(int n, int a);
+int n_is_prime_number(int n, int a);
+int is_prime_number(int n);
 
 #endif
