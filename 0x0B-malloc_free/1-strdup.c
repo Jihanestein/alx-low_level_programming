@@ -5,15 +5,13 @@
 /**
   *_strdup - fuction that return a pointer to new memory
   *@str: char
-  *@b: memory
   * Return: NULL if str is NULL otherwise a pointer to duplicated string
   */
 
 char *_strdup(char *str)
 {
 	char *s;
-	int a;
-	int b = 0;
+	int a, b = 0;
 
 	if (str == NULL)
 		return (NULL);
